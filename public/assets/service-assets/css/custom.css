@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(241, 241, 247);
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  /* background-color: #0d7377; */
+  background-color: #0a4d68;
+}
+
+.h-content {
+  margin: 0;
+  padding: 20px 40px;
+}
+
+.carousel-inner {
+  max-height: 100vh;
+}
+
+.menu ul li {
+  padding-right: 25px;
+}
+
+.menu ul li a {
+  color: white;
+}
+
+.menu ul li::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  margin: auto;
+  background-color: white;
+  display: block;
+  transition: 0.5s;
+}
+
+.menu ul li:hover::after {
+  width: 80%;
+}
+
+.ct {
+  text-align: center;
+  background-color: #3ea357;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 12px 0;
+}
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services .img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.services .img img {
+  transition: 0.6s;
+}
+
+.services .details {
+  padding: 50px 30px;
+  margin: -100px 30px 0 30px;
+  transition: all ease-in-out 0.3s;
+  background: var(--color-white);
+  position: relative;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0 25px rgba(#000, 0.1);
+}
+
+.services .details .icon {
+  margin: 0;
+  width: 72px;
+  height: 72px;
+  background: #3ea357;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  border: 6px solid #fff;
+}
+
+.services .details h3 {
+  color: var(--color-default);
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .details p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .service-item:hover .details h3 {
+  color: #3ea357;
+}
+
+.services .service-item:hover .details .icon {
+  background: var(--color-white);
+  border: 3px solid #3ea357;
+}
+
+.services .service-item:hover .details .icon i {
+  color: #3ea357;
+}
+
+.services .service-item:hover .img img {
+  transform: scale(1.2);
+}
+
+/*--------------------------------------------------------------
+# Services Section End
+--------------------------------------------------------------*/
+
+/* Login Form */
+
+.log-mb-form {
+  display: none !important;
+}
+
+.article p {
+  font-size: large;
+}
+
+.article img {
+  align-items: center !important;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.f-13 {
+  font-size: 13px;
+}
+
+.f-15 {
+  font-size: 15px;
+}
+
+.objective h4,
+p {
+  text-align: justify;
+}
+
+.objective h5 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #00a651;
+}
+
+.customer h5 {
+  margin: 5% 5%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00a651;
+}
+
+.branch_service h5 {
+  /* margin: 5% 5%; */
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00a651;
+}
+
+.customer input {
+  text-align: center;
+  border-radius: 200px;
+}
+
+.customer input::placeholder {
+  font-weight: bolder;
+  color: #00a651;
+}
+
+.service-animate {
+  transition: ease-in-out 0.5s;
+}
+
+.service-animate:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 5px #e42309;
+}
+
+.search-show,
+.services,
+.objective {
+  margin-bottom: 7%;
+}
+
+.mobile-menu .card-bg {
+  background-color: #0a4d68;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+}
+
+.mobile-menu p {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  color: #fff;
+  /* color: #05bfdb; */
+}
+
+.menu-item i {
+  font-size: 60px;
+  color: #fff;
+  /* color: #05bfdb; */
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+/* Messages */
+
+.message h3 {
+  margin: 5px 15px;
+  color: #05bfdb;
+}
+
+.message hr {
+  border: none;
+  height: 5px;
+  color: #05bfdb;
+  background-color: #05bfdb;
+}
+
+.message p::first-letter {
+  font-size: 150%;
+  color: #05bfdb;
+
+  /* border: none;
+  height: 5px;
+  background-color: #05bfdb; */
+}
+
+.message-details .card-title {
+  background-color: #0a4d68;
+}
+
+.notify a {
+  text-decoration: none;
+  /* font-weight: bold; */
+  color: #000;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0a4d68;
+}
+
+.foot-text {
+  text-align: left;
+  margin-left: 8%;
+  padding: 20px 0;
+  color: #fff;
+  /* color: #05bfdb; */
+  /* background-color: ; */
+}
+
+.foot-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+  .c-none {
+    display: none;
+  }
+
+  .h-content {
+    margin: 0;
+    padding: 20px 0px 20px 10px;
+  }
+
+  .logo img {
+    width: 110px;
+  }
+
+  .menu {
+    position: relative;
+    /* margin-left: 175px; */
+    text-align: end;
+  }
+
+  .menu .navbar-toggler {
+    margin-left: 70%;
+  }
+
+  .navbar-collapse {
+    padding: 0;
+    margin-right: -35px;
+  }
+
+  .dealer_name {
+    max-width: 50px !important;
+    word-wrap: break-word;
+  }
+
+  .customer h5 {
+    margin: 5% 5%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #00a651;
+  }
+
+  /* Login Options */
+
+  .login_form {
+    display: none !important;
+  }
+
+  .log-mb-form {
+    display: block !important;
+  }
+
+  .mobile-menu .card-bg {
+    background-color: #0a4d68;
+  }
+
+  .mobile-menu p {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    color: #fff;
+  }
+
+  .menu-item i {
+    font-size: 60px;
+    color: #fff;
+    /* color: #05bfdb; */
+  }
+
+  .message-details .card-title {
+    background-color: #0a4d68;
+  }
+
+  .search-show,
+  .services,
+  .objective {
+    margin-bottom: 35%;
+  }
+
+  .foot-text {
+    text-align: center;
+    padding: 2px 0;
+  }
+}
